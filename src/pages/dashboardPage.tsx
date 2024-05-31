@@ -17,7 +17,7 @@ export default function DashboardPage() {
   const dashboard = useSelector((state: any) => state.authData.dashboardType);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
-  const [isDrawer, setIsDrawer] = useState(true);
+  const [isDrawer, setIsDrawer] = useState(false);
   const [selectedTemp, setSelectedTep] = useState(0);
   const template = useSelector(
     (state: any) => state.usersData.selectedTemplate
@@ -29,7 +29,6 @@ export default function DashboardPage() {
     setAnchorEl(null);
   };
   const handleOpenDrawer = () => {
-
     setIsDrawer(!isDrawer);
     closeMenu();
   };
@@ -41,7 +40,6 @@ export default function DashboardPage() {
     setIsSideBar(false);
   };
   const handleSelectedTemplate = (value: number) => {
-
     setSelectedTep(value);
     dispatch(selectTemplate(value));
   };
