@@ -1,0 +1,26 @@
+{
+    "options":[
+         { "label": "Email", "value": "email" },
+    { "label": "Password", "value": "password" },
+    { "label": "Text", "value": "text" },
+    { "label": "Number", "value": "number" },
+    { "label": "File", "value": "file" },
+    { "label": "Image", "value": "image" },
+    { "label": "Date", "value": "date" },
+    { "label": "Checkbox", "value": "checkbox" },
+    { "label": "Radio", "value": "radio" },
+    { "label": "Select", "value": "select" }
+    ],
+    "searchOptions":[
+    { "label": "Id", "value": "id" },
+    { "label": "Type", "value": "type" },
+    { "label": "Key", "value": "key" },
+    { "label": "Label", "value": "label" },
+    { "label": "RegularExp", "value": "regularExp" }
+    ],
+    "formTemplates":[
+        {"label": "fisrtForm", "value":0},
+        {"label": "SecondForm", "value":1},
+        {"label": "thirdForm", "value":2}
+    ]
+}

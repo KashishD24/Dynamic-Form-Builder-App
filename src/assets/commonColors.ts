@@ -1,0 +1,25 @@
+const commonColors = {
+    primary: "#4B49AC",
+      secondary: "#98BDFF",
+      fadedPink: "#F3797E",
+      fadedPurple: "#7978E9",
+      fadedBlue: "#7DA0FA",
+      white: "#ffff",
+      black: "#000",
+      fadedRed: "#D3494E",
+      fadedGreen: "#50EC3B",
+       blackFaded: "#8C8C8C",
+      primeBg: "#f3f5f",
+      darkMarron:"#58151c",
+           gray_100: "#f8f9fa",
+    gray_200: "#f3f5f7",
+    gray_300: "#dbe0e5",
+    gray_400: "#bec8d0",
+    gray_500: "#8996a4",
+    gray_600: "#5b6b79",
+    gray_700: "#3e4853",
+    gray_800: "#1d2630",
+    gray_900: "#131920",
+}
+
+export default commonColors

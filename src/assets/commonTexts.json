@@ -1,0 +1,14 @@
+{
+    "commonTexts" : {
+        "passwordNotMatched" : "Password does not matched with emailid",
+        "noUserFound":"No user found",
+        "formBuilder": "Form Builder",
+        "emailid": "Emailid",
+        "enterEmailId":"Enter your Emailid here",
+        "password":"Password",
+        "enterPassword":"Enter your password here",
+        "login": "Login",
+        "logoFormBuilder": "FormBuilder",
+        "logout": "Logout"
+    }
+}
